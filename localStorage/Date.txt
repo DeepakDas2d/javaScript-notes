@@ -1,0 +1,8 @@
+1. new Date() Creates a new date object with the current date and time.
+2. Key methods:
+* getTime(): Milliseconds since Epoch.
+* getFullYear(): 4-digit year.
+* getDay(): Day of the week.
+* getMinutes(): Current minute.
+* getHours(): Current hour.
+3. Crucial for timestamps, scheduling, etc.

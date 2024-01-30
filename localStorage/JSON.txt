@@ -1,0 +1,13 @@
+What is JSON?
+1. JavaScript Object Notation: Not the same as JS Object, but similar.
+2. Common in network calls and data storage.
+3. JSON.stringify() - converts json to string  and JSON.parse() - converts string to json.
+4. Strings are easy to transport over network.
+5. JSON requires double quotes. Escaped as \".
+6. JSON is data format, JSON object is data struture.
+
+Example :
+ {
+        "firstname" : "sam",
+        "lastname" : "jens",
+ }

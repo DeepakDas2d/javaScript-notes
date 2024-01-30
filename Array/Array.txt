@@ -1,0 +1,32 @@
+1. An Array is just a list of values.
+2. Index: Starts with 0.
+3. Array are used for storing multiple values in a single variable.
+
+
+// Array Syntax & values
+ let myArray = [1, 'apple', null, true, {likes: '1M'}];
+
+ 1. Use [] to create a new array, [] brackets enclose list of values
+ 2. Arrays can be saved to a variable.
+ 3. Accessing Values: Use [] with index.
+ 4. Syntax Rules:
+    . Brackets start and end the array.
+    . Values seprated by commas.
+    . Can span multiple lines.
+5. Arrays can hold any value, including arrays.
+6. typeof operator on Array Returns Objects.
+
+
+// Array Properties & Methods
+1. Array.isArray() checks if a variable is an array.
+2. Length property holds the size of the array.
+3. Common Methods:
+    . push/pop: Add or remove to end.
+    . shift/unshift: Add or remove from front. (Removes the first   element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.)
+    
+    . splice: Add or remove elements.
+    . toSstring: Converts to string.
+    . sort: Sort elements.
+    . valueOf: Get array itself.
+4. Arrays also use reference like Objects.
+5. De-structuring also works for Arrays.

@@ -1,0 +1,26 @@
+What is a Loop?
+1. Code that runs multiple times based on a condition.
+2. Loops also after the flow of execution, similar to functions.
+    . functions: Reusable blocks of code.
+    . Loops: Repeated execution of code.
+3. Loops automate repetitive.
+4. Types of Loops: for, while, do-while.
+5. Iterations: Number of times the loop runs.
+
+
+* While Loop:
+while (condition){
+    // block of code
+}
+
+// Accumulator Pattern
+1. A pattern to accumulate values through looping.
+2. common scenarios:
+    . Sum all the numbers in an array
+    . create a modified copy od an array.
+
+
+//Break & Continue
+1.Break lets you stop a loop early, or break out loop.
+2. Continue is used to skip one Iteration or the current Iteration.
+3. In while loop remember to do the increment manually before using Continue.

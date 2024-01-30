@@ -1,0 +1,22 @@
+what is Local Storage?
+1.Persistent data storage in the brower.
+2. setitem: Stores data as key-value pairs.
+3. Only strings can be stored.
+4. getitem: Retrieves data based on key.
+5. Other Methods: localStorage clear(), removeItem().
+6. Do not store sensitive information. Viewable in storage console.
+
+Example:
+// Store an object in localStorage
+localStorage.setItem(
+    "user",
+    JSON.stringify({
+        name: "Deepak",
+        age: 23,
+    });
+);
+
+// Retrieve an object in Local Storage
+const user = JSON.parse(
+    localStorage.getItem("user)
+    );
