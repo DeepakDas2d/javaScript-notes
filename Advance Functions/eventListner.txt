@@ -1,0 +1,11 @@
+// Event Listener
+1. What is an Event: Occurrences like clicks, mouse movement, keyboard input (e.g., birthday, functions)
+2. Using querySelector to attach listeners.
+3. Multiple Listeners: We can add more than one.
+4. removeEventListener('event', functionVariable);
+
+Example:
+const button = document.querySelector('.btn)
+button.addEventListener("click", event => {
+    console.log('Hello');
+})
