@@ -39,3 +39,52 @@ let square = num => num * num;
 4. setInterval:
     . Syntax: setInterval(function, time)
     . Cancel: clearInterval(intervalId)
+
+// For each loop
+1. A method for array iteration, often preferred for readability.
+2. Parameters: one for item, optional second for index.
+3. Using return is similar to continue in traditional loops.
+4. Not straightforward to break out of a forEach loop.
+5. When you need to perform an action on each array element and don't need to break early.
+
+Example:
+let foods = ['bread', 'rice', 'meat', 'pizza'];
+
+foods.forEach(function(food){
+    console.log(food)
+})
+
+
+//Array MEthods
+1. Filter Method:
+    . Syntax: array.filter((value, index) => return true/false)
+    . Use: Filters elements based on condition.
+2. Map Method:
+    . Syntax: array.map((value) => return newValue)
+    . Use: Trabsform each element.
+
+
+//Reduce Method:
+The reduce() method is used to reduce the elements of an array to a single value. It executes a provided function for each element of the array, resulting in a single output value. The syntax for reduce() is as follows:
+
+Syntax: array.reduce(callback(accumulator, currentValue[, currentIndex, array])[, initialValue])
+
+. callback: Function to execute on each element of the array, taking four arguments:
+
+. accumulator: The accumulator accumulates the callback's return values. It is the accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied.
+
+. currentValue: The current element being processed in the array.
+currentIndex (optional): The index of the current element being processed in the array.
+
+. array (optional): The array reduce() was called upon.
+
+. initialValue (optional): A value to use as the first argument to the first call of the callback function. If no initialValue is supplied, the first element in the array will be used as the initial accumulator value, and currentValue will start from the second element.
+
+Example:
+
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum); // Output: 15 (1 + 2 + 3 + 4 + 5)
+
+
+Note: reduce() can be used for various purposes like summing elements, finding maximum/minimum values, flattening arrays, and more, depending on the logic defined in the callback function.
